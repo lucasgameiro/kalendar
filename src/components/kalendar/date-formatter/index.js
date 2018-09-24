@@ -7,5 +7,3 @@ export function format(date, format_type) {
     formatDateFns(date, format_type);
   }
 }
-
-module.exports = format;

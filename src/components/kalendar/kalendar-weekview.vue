@@ -36,7 +36,7 @@
   </div>
 </template>
 <script>
-import format from 'date-fns/format';
+import {format} from './date-formatter';
 import isToday from 'date-fns/is_today';
 import KalendarDays from './kalendar-day.vue';
 import isBefore from 'date-fns/is_before';
