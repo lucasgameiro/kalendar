@@ -11,10 +11,16 @@
 [Kalendar Showcase](http://kalendar.altinselimi.com/)
 [Codepen](https://codepen.io/altinselimi/pen/PdPLBZ)
 
+## Forked feature added: i18n
+- dependency date-fns
+```
+window.kalendarLocale = require('date-fns/locale/<language>');
+```
+
 ## Getting Started
 - Install plugin from npm
 ```
-npm install kalendar-vue -S
+npm install lucasgameiro/kalendar-vue -S
 ```
 - Import plugin in your component
 ```js

@@ -1,5 +1,5 @@
 import PortalVue from 'portal-vue'
-import format from 'date-fns/format';
+import format from './date-formatter';
 import smoothscroll from 'smoothscroll-polyfill';
 import Kalendar from './kalendar-container';
 import KalendarCell from './kalendar-cell';

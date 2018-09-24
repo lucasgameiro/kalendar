@@ -9,7 +9,6 @@
 <script>
 import isWeekend from 'date-fns/is_weekend';
 import isToday from 'date-fns/is_today';
-import format from 'date-fns/format';
 
 export default {
   props: ['day', 'passedTime'],

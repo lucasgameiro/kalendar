@@ -64,7 +64,7 @@ import addWeeks from 'date-fns/add_weeks';
 import startOfWeek from 'date-fns/start_of_week';
 import endOfWeek from 'date-fns/end_of_week';
 import getDay from 'date-fns/get_day';
-import format from 'date-fns/format';
+import format from './date-formatter';
 import getTime from 'date-fns/get_time';
 import isValid from 'date-fns/is_valid';
 import addMinutes from 'date-fns/add_minutes';

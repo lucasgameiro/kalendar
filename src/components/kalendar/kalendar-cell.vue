@@ -17,9 +17,6 @@
 	</li>
 </template>
 <script>
-import differenceInHours from 'date-fns/difference_in_hours';
-import format from 'date-fns/format';
-
 const crypto = window.crypto || window.msCrypto; // IE11 Polyfill
 
 export default {
