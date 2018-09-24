@@ -14,7 +14,8 @@
 ## Forked feature added: i18n
 - dependency date-fns
 ```
-window.kalendarLocale = require('date-fns/locale/<language>');
+import language from 'date-fns/locale/<language>';
+window.kalendarLocale = language;
 ```
 
 ## Getting Started
@@ -24,8 +25,8 @@ npm install lucasgameiro/kalendar-vue -S
 ```
 - Import plugin in your component
 ```js
-import { Kalendar } from 'kalendar-vue';
-import 'kalendar-vue/dist/KalendarVue.css';
+import { Kalendar } from 'kalendar-vue/src/components/kalendar';
+import 'kalendar-vue/src/components/kalendar/main.scss';
 ...
 components: {
 	Kalendar,
