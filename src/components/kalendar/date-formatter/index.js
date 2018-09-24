@@ -1,4 +1,4 @@
-import formatDateFns from 'date-fns/format';
+import * as formatDateFns from 'date-fns/format';
 
 export function format(date, format_type) {
   if (window.kalendarLocale) {
